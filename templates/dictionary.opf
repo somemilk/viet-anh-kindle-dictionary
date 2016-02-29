@@ -10,7 +10,7 @@
     </dc-metadata>
     <x-metadata>
       <output encoding="utf-8" content-type="text/x-oeb1-document"></output>
-      <EmbeddedCover>cover.png</EmbeddedCover>
+      <EmbeddedCover>{%cover%}</EmbeddedCover>
       <DictionaryInLanguage>vi-vn</DictionaryInLanguage>
       <DictionaryOutLanguage>en-us</DictionaryOutLanguage>
     </x-metadata>

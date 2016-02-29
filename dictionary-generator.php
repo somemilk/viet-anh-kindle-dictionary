@@ -7,6 +7,7 @@ define('DEFINITION_COLUMN', 'Dich');
 define('DICTIONARY_TITLE', 'Viet Anh Dictionary');
 define('DICTIONARY_CREATOR', 'andrey@somemilk.org');
 define('DICTIONARY_DESCRIPTION', 'Viet Anh Dictionary for Kindle');
+define('DICTIONARY_COVER', 'cover.png');
 
 $output_filename_html = __DIR__ . '/output/dictionary-viet-anh.html';
 $output_filename_opf = __DIR__ . '/output/dictionary-viet-anh.opf';
@@ -56,6 +57,7 @@ $opf = $opf_template;
 $opf = str_replace('{%dictionary title%}', DICTIONARY_TITLE, $opf);
 $opf = str_replace('{%creator%}', DICTIONARY_CREATOR, $opf);
 $opf = str_replace('{%description%}', DICTIONARY_DESCRIPTION, $opf);
+$opf = str_replace('{%cover%}', DICTIONARY_COVER, $opf);
 $opf = str_replace('{%date%}', date('m/d/Y'), $opf);
 
 // BOM header required
